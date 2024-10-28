@@ -1,6 +1,5 @@
 # WebDev2024
 
+# Hands-On Practices
 
-# something something
-
-#i'll get back later
+#Group Project: CyberGuard Pro
