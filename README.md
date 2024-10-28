@@ -2,4 +2,4 @@
 
 # Hands-On Practices
 
-Group Project: CyberGuard Pro
+# Group Project: CyberGuard Pro
