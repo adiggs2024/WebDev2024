@@ -1,0 +1,16 @@
+body { background-color: #6c7ca1; 
+	font-family: sans-serif; 
+	color: #0c0e12; 
+	
+	}
+
+a:link { color: #0c0e12; }
+a:visited { color: #1a3325; }
+
+nav {	background-color: #b3b9e6; 
+	display: block; 
+	padding: 1%; 
+	border: 3px #0c0e12 solid; 
+	}
+
+footer { background-color: #1d1f2e; color: #bdc0db; text-align: center; font-size: 80%; padding: 0.5%; margin: 0; }
