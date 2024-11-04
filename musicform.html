@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Music Survey</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+<h1>Music Survey</h1><br><br>
+<form>
+	Name: <input type="text" name="myname" id="myname"><br><br>
+	Email address: <input type="email" name="myemail" id="myemail"><br><br>
+	What role does music play in your life? <br> <textarea name="role" 	id="role" cols="60" rows="3"></textarea><br><br>
+	<fieldset>
+		<legend>What format of music do you prefer?</legend>
+		<input type="radio" name="format" id="pod" value="Podcasts">
+			Podcasts<br><br>
+		<input type="radio" name="format" id="stream" value="Streaming">
+			Streaming/Downloaded MP3<br><br>
+		<input type="radio" name="format" id="CD" value="CDs">
+			CDs<br><br>
+	</fieldset>
+	<fieldset>
+		<legend>Choose your favorite music genre(s):</legend>
+			<input type="checkbox" name="pop" id="pop" value="pop">					Pop<br>
+			<input type="checkbox" name="rock" id="rock" value="Rock">
+				Rock<br>
+			<input type="checkbox" name="classic" id="classic" 					value="Classical">Classical<br>
+			<input type="checkbox" name="folk" id="folk" value="Folk">					Folk<br>
+			<input type="checkbox" name="rap" id="rap" value="Rap">Rap
+				<br>
+			<input type="checkbox" name="hiphop" id="hiphop" 						value="HipHop">Hip-Hop/R&amp;B<br>
+			<input type="checkbox" name="other" id="other" 						value="Other">Other<br>
+	</fieldset>
+
+
+	Choose the day you last listened to music: <input type="date" name="day" 		id="day"><br><br>
+	
+	Select the locations where you often listen to music:<br>
+		<select size="3">
+			<option>At home</option>
+			<option>In the car</option>
+			<option>At work</option>
+			<option>Anywhere</option>
+		</select><br><br>
+		<button type=submit>Submit</button>
+		<button type=reset>Reset</button><br><br><br><br>
+
+
+</body>
+
+</html>
